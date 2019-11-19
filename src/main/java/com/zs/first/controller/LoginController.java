@@ -33,7 +33,7 @@ public class LoginController {
             log.info("用户:“"+ name +"”登录成功");
             return "success";
         }else {
-            log.info("用户:“"+ name +"”登录失败");
+            log.info("用户:“"+ name +"”登录失败.....");
             return "error";
         }
     }
