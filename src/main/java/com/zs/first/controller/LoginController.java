@@ -30,10 +30,10 @@ public class LoginController {
     public String login(String name,String password){
         UserBean userBean = userService.loginIn(name,password);
         if(userBean!=null){
-            log.info(name+"：用户登录成功");
+            log.info("用户:“"+ name +"”登录成功");
             return "success";
         }else {
-            log.info(name+"：用户登录失败");
+            log.info("用户:“"+ name +"”登录失败");
             return "error";
         }
     }
