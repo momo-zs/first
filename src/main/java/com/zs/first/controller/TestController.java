@@ -24,6 +24,6 @@ public class TestController {
         userList.add("李四");
         userList.add("王五");
         map.addAttribute("userList",userList);
-        return "test";
+        return "test/testLogin";
     }
 }

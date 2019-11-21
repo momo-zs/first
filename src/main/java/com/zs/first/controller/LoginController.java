@@ -23,7 +23,7 @@ public class LoginController {
  
     @RequestMapping("/login")
     public String show(){
-        return "login";
+        return "login.html";
     }
  
     @RequestMapping(value = "/loginIn",method = RequestMethod.POST)
